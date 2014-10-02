@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<link rel="import" href="../packages/polymer/polymer.html">
+<link href="packages/core_elements/core_icons.html" rel="import">
+<link rel="import" href="packages/core_elements/core_menu.html">
+    
+<link rel="import" href="packages/paper_elements/paper_fab.html">
+<link rel="import" href="packages/paper_elements/paper_item.html">
+
+<polymer-element name="monuments-list">
+
+  <template>
+  
+      <core-menu>
+            <template repeat="{{monument in monuments}}">
+              <paper-item label="{{monument.name}}"> </paper-item>
+            </template>
+      </core-menu>
+          
+  </template>
+  
+  <script type="application/dart" src="monuments_list.dart"></script>
+
+</polymer-element>

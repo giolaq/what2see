@@ -1,0 +1,223 @@
+---
+build.dart --machine --full
+
+build.dart finished [1324 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"info","params":{"message":"Took 0.6s (0.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.3s awaiting secondary inputs)."}}]
+build.dart finished [2354 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2339 ms]
+
+---
+build.dart --machine --changed=web/baasbox_users_list.html
+
+build.dart finished [1824 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html --removed=web/baasbox_users_list.html
+
+build.dart finished [1911 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [1782 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [1872 ms]
+
+---
+build.dart --machine --changed=web/baasbox_users_list.dart
+
+build.dart finished [1783 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart --removed=web/baasbox_users_list.dart
+
+build.dart finished [1794 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1796 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [1893 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [1887 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [1841 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1794 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1835 ms]
+
+---
+build.dart --machine --changed=web/Elenco_Monumenti_2011.csv
+
+build.dart finished [1784 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2345 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1849 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1799 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1793 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1790 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1793 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1800 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1840 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1870 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1764 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1759 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1804 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1775 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1766 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1816 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.dart
+
+build.dart finished [1789 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/what2see.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"what2see\".","line":14,"charStart":414,"charEnd":458}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":24,"charStart":638,"charEnd":663}}]
+build.dart finished [1804 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"warning","params":{"file":"web/what2see.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":24,"charStart":641,"charEnd":666}}]
+build.dart finished [1896 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [1967 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [2687 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1983 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2015 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1893 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2151 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2078 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2397 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1980 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2494 ms]
+
