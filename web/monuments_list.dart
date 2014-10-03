@@ -9,21 +9,38 @@ class MonumentsList extends PolymerElement {
   @observable List<Monument> monuments = toObservable([]);
 
   MonumentsList.created() : super.created() {
-    populateList();
+    loadData();
   }
 
 
-  void populateList() {
+
+  void populateList(String data) {
     monuments.clear();
 
 
-    String data = "\"hello\",\"world\"\n\"wie\ngeht's\",\"dir\"";
-
-    CsvParser cp = new CsvParser(data, seperator: ",", quotemark: "\"");
+    CsvParser cp = new CsvParser(data, seperator: ";", quotemark: "\"", setHeaders: true);
     while (cp.moveNext()) {
-      while (cp.current.moveNext()) monuments.add(new Monument(cp.current.current, "address"));
+
+      //while (cp.current.moveNext())
+        //{
+          Map line = cp.getLineAsMap(headers: ['name', 'address']);
+          monuments.add(new Monument(line['name'], line['address']));
+        //}
     }
 
 
   }
+
+  void loadData() {
+    var url = "http://localhost:8080/Elenco_Monumenti_2011.csv";
+
+    // call the web server asynchronously
+    var request = HttpRequest.getString(url).then(onDataLoaded);
+  }
+
+// print the raw json response text from the server
+  void onDataLoaded(String responseText) {
+    populateList(responseText);
+  }
+
 }
