@@ -2,18 +2,30 @@
 <link rel="import" href="../packages/polymer/polymer.html">
 <link href="packages/core_elements/core_icons.html" rel="import">
 <link rel="import" href="packages/core_elements/core_menu.html">
+<link rel="import" href="packages/core_elements/core_toolbar.html">
     
 <link rel="import" href="packages/paper_elements/paper_fab.html">
 <link rel="import" href="packages/paper_elements/paper_item.html">
+<link rel="import" href="packages/paper_elements/paper_shadow.html">
+<link rel="import" href="packages/paper_elements/paper_icon_button.html">
 
 <polymer-element name="monuments-list">
 
   <template>
   
+      <core-toolbar>
+        <div class="title">Monuments</div>
+      </core-toolbar>
+  
       <core-menu>
             <template repeat="{{monument in monuments}}">
+            <div class="card">
+              <paper-shadow z="1"></paper-shadow>
+              <paper-icon-button icon="favorite" style="fill:red;"></paper-icon-button>
+            
               <paper-item label="Name: {{monument.name}}"> </paper-item>
               <paper-item label="Address: {{monument.address}}"> </paper-item>
+            </div>
               
             </template>
       </core-menu>
