@@ -524,3 +524,8 @@ build.dart --machine --changed=web/monuments_list.dart
 
 build.dart finished [2000 ms]
 
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2147 ms]
+
