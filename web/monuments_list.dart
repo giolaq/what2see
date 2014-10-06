@@ -19,12 +19,17 @@ class MonumentsList extends PolymerElement {
 
 
     CsvParser cp = new CsvParser(data, seperator: ";", quotemark: "\"", setHeaders: true);
+    //set pointer below header
+    cp.moveNext();
+    cp.moveNext();
+    cp.moveNext();
     while (cp.moveNext()) {
 
       //while (cp.current.moveNext())
         //{
           Map line = cp.getLineAsMap(headers: ['name', 'address']);
-          monuments.add(new Monument(line['name'], line['address']));
+          if ( line['name'].isNotEmpty)
+             monuments.add(new Monument(line['name'], line['address']));
         //}
     }
 

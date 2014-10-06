@@ -24,7 +24,7 @@
     </core-toolbar>
     <template repeat="{{monument in monuments}}">
       
-          <div class="category-item red-theme" vertical layout needZ?="true">
+          <div class="category-item blue-theme" vertical layout needZ?="true">
             <div class="tile theme-bg-a" dummy fit hero-id="true" hero?="true"></div>
             <div class="tile" flex auto vertical layout>
               <div flex auto relative>
@@ -38,7 +38,10 @@
                 <div flex>
                   <span cross-fade-delayed?="true">{{monument.name}}</span>
                 </div>
-                <core-icon class="category-icon theme-bg" icon="av:play-arrow" hidden?="true" cross-fade-delayed?="true"></core-icon>
+                 <div flex>
+                  <span cross-fade-delayed?="true">{{monument.address}}</span>
+                </div>
+                <core-icon class="category-icon theme-bg" icon="av:play-arrow" hidden?="false" cross-fade-delayed?="true"></core-icon>
               </div>
             </div>
           </div>
