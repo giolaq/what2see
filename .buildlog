@@ -384,3 +384,108 @@ build.dart --machine --changed=web/monuments_list.html
 
 build.dart finished [2903 ms]
 
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2230 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css
+
+build.dart finished [2006 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css
+
+build.dart finished [1914 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2181 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [1954 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [1999 ms]
+
+---
+build.dart --machine --clean
+
+build.dart finished [1978 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [3263 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2161 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2029 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2006 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2063 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2005 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2116 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css
+
+build.dart finished [2111 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2089 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2251 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2070 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2179 ms]
+
+---
+build.dart --machine --changed=web/what2see.css
+
+build.dart finished [2032 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2263 ms]
+

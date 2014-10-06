@@ -12,24 +12,40 @@
 <polymer-element name="monuments-list">
 
   <template>
+  <link rel="stylesheet" href="monuments_list.css">
   
-      <core-toolbar>
-        <div class="title">Monuments</div>
-      </core-toolbar>
+      
+  <div class="categories-panel" flex auto>
   
-      <core-menu>
-            <template repeat="{{monument in monuments}}">
-            <div class="card">
-              <paper-shadow z="1"></paper-shadow>
-              <paper-icon-button icon="favorite" style="fill:red;"></paper-icon-button>
-            
-              <paper-item label="Name: {{monument.name}}"> </paper-item>
-              <paper-item label="Address: {{monument.address}}"> </paper-item>
+    <core-toolbar class="category-toolbar" slide-down?="true">
+    
+      <div flex >Monuments</div>
+      
+    </core-toolbar>
+    <template repeat="{{monument in monuments}}">
+      
+          <div class="category-item red-theme" vertical layout needZ?="true">
+            <div class="tile theme-bg-a" dummy fit hero-id="true" hero?="true"></div>
+            <div class="tile" flex auto vertical layout>
+              <div flex auto relative>
+                <!-- sizing wrapper -->
+                <div fit layout vertical center center-justified>
+                  <div class="category-bg-wrapper" relative>
+                  </div>
+                </div>
+              </div>
+              <div class="cat-name theme-bg" horizontal center layout hero-id="true" hero?="true">
+                <div flex>
+                  <span cross-fade-delayed?="true">{{monument.name}}</span>
+                </div>
+                <core-icon class="category-icon theme-bg" icon="av:play-arrow" hidden?="true" cross-fade-delayed?="true"></core-icon>
+              </div>
             </div>
-              
-            </template>
-      </core-menu>
-          
+          </div>
+      
+      </template>
+     
+          </div>
   </template>
   
   <script type="application/dart" src="monuments_list.dart"></script>
