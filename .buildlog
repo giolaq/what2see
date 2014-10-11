@@ -529,3 +529,128 @@ build.dart --machine --changed=web/monuments_list.html
 
 build.dart finished [2147 ms]
 
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2100 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2509 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2021 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [2013 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [1960 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2021 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2166 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2007 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2090 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2029 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2074 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2202 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1955 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1919 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2035 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1981 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2064 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2030 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2040 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2152 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2044 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1999 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2100 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2016 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2104 ms]
+

@@ -28,12 +28,33 @@ class MonumentsList extends PolymerElement {
       //while (cp.current.moveNext())
         //{
           Map line = cp.getLineAsMap(headers: ['name', 'address']);
-          if ( line['name'].isNotEmpty)
-             monuments.add(new Monument(line['name'], line['address']));
+          if ( line['name'].isNotEmpty) {
+            
+            String thmbUrl = getThmbUrl(line['name']);
+            monuments.add(new Monument(line['name'], line['address'], thmbUrl));
+
+            
+          }
         //}
     }
 
 
+  }
+  
+  String getThmbUrl(String name) {
+    
+    String query = "https://ajax.googleapis.com/ajax/services/search/images";
+    
+    HttpRequest httpR = new HttpRequest();
+    String q = Uri.encodeQueryComponent(name);
+    httpR.open('GET', query);
+    httpR.setRequestHeader('Access-Control-Allow-Origin', 'null');
+    HttpRequest.getString('$query?v=1.0&q=$name')
+              .then((String resp) {
+      print(resp);
+            });
+    
+    return "null";
   }
 
   void loadData() {
