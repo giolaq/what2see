@@ -654,3 +654,325 @@ build.dart --machine --changed=web/monuments_list.dart
 
 build.dart finished [2104 ms]
 
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2746 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2059 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2178 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1910 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1935 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [2008 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1897 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1945 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2585 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2006 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1963 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1979 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1903 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2020 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1919 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2006 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2120 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2514 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2041 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2105 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2014 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2101 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2002 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2041 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1974 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1980 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1992 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2089 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2117 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1964 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2029 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2282 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2136 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2038 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2022 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1908 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1939 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2041 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1908 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2006 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2142 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1955 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2064 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1965 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1933 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2034 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2030 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2036 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2012 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2052 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1956 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2050 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1913 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2065 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2048 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1936 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2011 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1954 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2144 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"warning","params":{"file":"web/monuments_list.html","message":"Unexpected character after attribute value.","line":27,"charStart":914,"charEnd":1034}}]
+[{"method":"warning","params":{"file":"web/monuments_list.html","message":"Invalid character in attribute name","line":27,"charStart":914,"charEnd":1038}}]
+build.dart finished [2242 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"warning","params":{"file":"web/monuments_list.html","message":"Unexpected character after attribute value.","line":27,"charStart":914,"charEnd":1033}}]
+[{"method":"warning","params":{"file":"web/monuments_list.html","message":"Invalid character in attribute name","line":27,"charStart":914,"charEnd":1037}}]
+build.dart finished [2083 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2182 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2151 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [1978 ms]
+
