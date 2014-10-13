@@ -976,3 +976,65 @@ build.dart --machine --changed=web/monuments_list.html
 
 build.dart finished [1978 ms]
 
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2329 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2223 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"warning","params":{"file":"web/monuments_list.html","message":"Unexpected character after attribute value.","line":27,"charStart":914,"charEnd":983}}]
+[{"method":"warning","params":{"file":"web/monuments_list.html","message":"Invalid character in attribute name","line":27,"charStart":914,"charEnd":1003}}]
+[{"method":"warning","params":{"file":"web/monuments_list.html","message":"Invalid character in attribute name","line":27,"charStart":914,"charEnd":1060}}]
+build.dart finished [2108 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2221 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2119 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"warning","params":{"file":"web/monuments_list.html","message":"Unexpected character after attribute value.","line":29,"charStart":1082,"charEnd":1207}}]
+build.dart finished [2073 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2151 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2160 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2115 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2097 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2133 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2146 ms]
+

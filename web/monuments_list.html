@@ -26,7 +26,7 @@
       
           <div class="category-item blue-theme"  vertical layout needZ?="true">
             <div class="tile theme-bg-a" dummy fit hero-id="true" hero?="true"></div>
-            <div class="tile" flex auto vertical layout>
+            <div class="tile" style="background-image: url({{monument.thmbUrl}}); background-repeat: no-repeat; height: 400dp; width: 400dp; border: 1px solid black;" flex auto vertical layout>
               <div flex auto relative>
                 <!-- sizing wrapper -->
                 <div fit layout vertical center center-justified>
@@ -40,7 +40,6 @@
                 </div>
                  <div flex>
                   <span cross-fade-delayed?="true">{{monument.address}}</span>
-                  <img src="{{monument.thmbUrl}}" height="200" width="200">
                 </div>
                 <core-icon class="category-icon theme-bg" icon="arrow-forward" hidden?="false" cross-fade-delayed?="true"></core-icon>
               </div>
