@@ -1038,3 +1038,33 @@ build.dart --machine --changed=web/monuments_list.html
 
 build.dart finished [2146 ms]
 
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2136 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css
+
+build.dart finished [2033 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css
+
+build.dart finished [2399 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css
+
+build.dart finished [2042 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css
+
+build.dart finished [1998 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2185 ms]
+

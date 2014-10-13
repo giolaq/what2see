@@ -34,7 +34,7 @@ class MonumentsList extends PolymerElement {
 
         getThmbUrl(line['name']).then((onValue) {
 
-          String thmbUrl = onValue['responseData']['results'][0]['tbUrl'];
+          String thmbUrl = onValue['responseData']['results'][0]['url'];
 
           monuments.add(new Monument(line['name'], line['address'], thmbUrl));
 
