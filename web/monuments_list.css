@@ -11,12 +11,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   position: relative;
   /* TODO(sjmiles): why is this necessary? */
   overflow-x: hidden;
-  background-color: #424242;
+  background-color: #ffffff;
 }
 
 .category-toolbar {
   height: 100px;
   z-index: 1;
+  background-color: #27DDFD;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
