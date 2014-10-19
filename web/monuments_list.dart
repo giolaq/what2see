@@ -32,7 +32,7 @@ class MonumentsList extends PolymerElement {
       Map line = cp.getLineAsMap(headers: ['name', 'address']);
       if (line['name'].isNotEmpty) {
 
-        getThmbUrl(line['name']).then((onValue) {
+        getThmbUrl(line['name'] + line['address'] + " Roma").then((onValue) {
 
           String thmbUrl = onValue['responseData']['results'][0]['url'];
 

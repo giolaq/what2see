@@ -1155,3 +1155,18 @@ build.dart --machine --changed=web/monuments_list.html
 [{"method":"info","params":{"message":"Took 1.2s (0.5s awaiting secondary inputs)."}}]
 build.dart finished [3945 ms]
 
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [2037 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1943 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+
+build.dart finished [1967 ms]
+
