@@ -1088,3 +1088,70 @@ build.dart --machine --changed=web/monuments_list.css
 
 build.dart finished [2078 ms]
 
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [2111 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css --changed=web/monuments_list.dart
+
+build.dart finished [1980 ms]
+
+---
+build.dart --machine --changed=web/grid.html --changed=web/list.html --changed=web/music.html --changed=web/nes...
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/grid.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":45,"charStart":981,"charEnd":998}}]
+[{"method":"warning","params":{"file":"web/grid.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":49,"charStart":1182,"charEnd":1239}}]
+[{"method":"warning","params":{"file":"web/grid.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":55,"charStart":1610,"charEnd":1633}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/shadow.html","message":"definition for Polymer element with tag name \"auto-binding\" not found.","line":83,"charStart":2184,"charEnd":2212}}]
+[{"method":"warning","params":{"file":"web/shadow.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":85,"charStart":2329,"charEnd":2346}}]
+[{"method":"warning","params":{"file":"web/shadow.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":89,"charStart":2530,"charEnd":2587}}]
+[{"method":"warning","params":{"file":"web/shadow.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":91,"charStart":2733,"charEnd":2768}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [3012 ms]
+
+---
+build.dart --machine --removed=web/grid.html
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/shadow.html","message":"definition for Polymer element with tag name \"auto-binding\" not found.","line":83,"charStart":2184,"charEnd":2212}}]
+[{"method":"warning","params":{"file":"web/shadow.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":85,"charStart":2329,"charEnd":2346}}]
+[{"method":"warning","params":{"file":"web/shadow.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":89,"charStart":2530,"charEnd":2587}}]
+[{"method":"warning","params":{"file":"web/shadow.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":91,"charStart":2733,"charEnd":2768}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [2822 ms]
+
+---
+build.dart --machine --removed=web/shadow.html
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [2907 ms]
+
+---
+build.dart --machine --removed=web/list.html --removed=web/music.html --removed=web/nested.html --removed=web/n...
+
+build.dart finished [2043 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 1.2s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3945 ms]
+
