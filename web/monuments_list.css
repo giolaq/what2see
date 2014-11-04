@@ -7,6 +7,10 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 */
 
+.img-dialog {
+  max-width: 95%;
+}
+
 .categories-panel {
   position: relative;
   /* TODO(sjmiles): why is this necessary? */
@@ -191,7 +195,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 */
 
 /* yellow theme */
-.yellow-theme /deep/ .theme-bg, 
+.yellow-theme /deep/ .theme-bg,
 .yellow-theme.theme-bg {
   background-color: #ffeb3b;
   color: #616161;
