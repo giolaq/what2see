@@ -30,7 +30,6 @@ class XMonument extends PolymerElement {
   }
 
   Future<String> getThumbnailSrc(String name) {
-    print("Prelevo img");
     var completer = new Completer();
     String BASE_URL = "https://ajax.googleapis.com/ajax/services/search/images";
     String query = Uri.encodeQueryComponent(name + " Roma");

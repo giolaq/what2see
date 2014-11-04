@@ -15,6 +15,7 @@ class Monument {
 class MonumentsList extends PolymerElement {
 
   List<Monument> buffer = [];
+  int currentBufferPosition;
   @observable List<Monument> monuments = toObservable([]);
 
   MonumentsList.created() : super.created() {
@@ -23,6 +24,7 @@ class MonumentsList extends PolymerElement {
     HttpRequest.getString(url).then((String response) {
       populateMonumentsList(response);
     });
+
   }
 
   void populateMonumentsList(String response) {
@@ -42,9 +44,22 @@ class MonumentsList extends PolymerElement {
       }
     }
 
-    monuments.addAll([buffer[0], buffer[1], buffer[2], buffer[3]]);
+    for (var i = 0; i < 24; i++) {
+      monuments.add(buffer[i]);
+    }
+    currentBufferPosition = 24;
   }
 
+  void loadMore() {
+    int nextBufferPosition;
+    for (var i = currentBufferPosition; i < currentBufferPosition + 8; i++) {
+      if (i < buffer.length) {
+        monuments.add(buffer[i]);
+        nextBufferPosition = i;
+      }
+    }
+    currentBufferPosition = nextBufferPosition;
+  }
 
 
 }
