@@ -14,7 +14,8 @@
     <link rel="import" href="packages/paper_elements/roboto.html">
     <link rel="import" href="packages/core_elements/core_toolbar.html">
     <link rel="import" href="packages/core_elements/core_icons.html">
-    <link rel="import" href="packages/paper_elements/paper_icon_button.html">
+    <link rel="import" href="packages/paper_elements/paper_menu_button.html">
+    <link rel="import" href="packages/paper_elements/paper_item.html">
     <style>
       body {
         font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
@@ -25,8 +26,11 @@
   </head>
   <body unresolved>
       <core-toolbar style="background: #4285f4;">
+          <paper-menu-button style="color: #fff;" icon="menu">
+              <paper-item>Learn Polymer.dart!</paper-item>
+              <paper-item>Get the Source Code</paper-item>
+          </paper-menu-button>
           <span style="color: white" flex>what2see &mdash; Monuments in Rome</span>
-          <paper-icon-button style="color: #fff;" icon="refresh"></paper-icon-button>
       </core-toolbar>
       <monuments-list></monuments-list>
       <!-- bootstrap polymer -->
