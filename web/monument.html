@@ -36,8 +36,8 @@
         <paper-dialog style="max-width: 65%; text-align:center" id="dialog" heading="{{name}}" transition="paper-dialog-transition-center">
             <img class="img-dialog" _src="{{imageSrc}}" alt="{{name}}"/>
             <p style="text-align:center"><em>{{address}}</em></p>
-            <paper-fab mini dismissive icon="reply" role="button" tabindex="0" aria-label="done" style="background: #259b24; color: #fff"></paper-fab>
-            <paper-fab mini affirmative icon="arrow-forward" role="button" tabindex="0" aria-label="arrow-forward" style="color: #fff"></paper-fab>
+            <paper-fab mini dismissive icon="reply" role="button" tabindex="0" aria-label="done" style="background: grey; color: #fff"></paper-fab>
+            <paper-fab mini affirmative id="go" on-click="{{seeOnMaps}}" icon="arrow-forward" role="button" tabindex="0" aria-label="arrow-forward" style="color: #fff"></paper-fab>
         </paper-dialog>
 
         <div class="category-item blue-theme"  vertical layout needZ?="true">

@@ -1,4 +1,6 @@
+import 'dart:html';
 import 'dart:async';
+
 import 'package:polymer/polymer.dart';
 import 'package:paper_elements/paper_dialog.dart';
 import 'package:jsonp/jsonp.dart' as jsonp;
@@ -37,5 +39,11 @@ class XMonument extends PolymerElement {
     });
 
     return completer.future;
+  }
+
+  void seeOnMaps() {
+      if (address.trim().isNotEmpty) {
+          window.location.assign("https://www.google.it/maps?q=" + Uri.encodeQueryComponent(address + " Roma Italia"));
+      }
   }
 }
