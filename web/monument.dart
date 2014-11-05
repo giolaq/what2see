@@ -1,16 +1,28 @@
+// Import the HTML library (needed for DOM manipulation, client-side http req)
 import 'dart:html';
+// Import the async library, needed for the Future object
 import 'dart:async';
 
+// Import the polymer package
 import 'package:polymer/polymer.dart';
+// Import the paper_dialog library from the paper_elements package
 import 'package:paper_elements/paper_dialog.dart';
+// Import the jsonp library using `jsonp` as namespace
 import 'package:jsonp/jsonp.dart' as jsonp;
 
+// Define this class to be a custom element
+// `x-monument` is the custom tag
 @CustomTag('x-monument')
 class XMonument extends PolymerElement {
 
+  // With the `@published` annotation, we define these as attributes, e.g.
+  // <x-monument address="Route 66"></x-monument>
   @published String name = "";
   @published String address = "";
-  @published String imageSrc = "";
+
+  // This will hold the URL of the image retrieved by Google Search Images API
+  @observable String imageSrc = "";
+
 
   XMonument.created() : super.created();
 
