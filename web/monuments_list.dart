@@ -5,9 +5,10 @@ import 'package:csvparser/csvparser.dart';
 
 class Monument {
   String name;
-  String address;
+   String address;
+   String thmbUrl;
 
-  Monument(this.name, this.address);
+   Monument(this.name, this.address);
 }
 
 @CustomTag('monuments-list')

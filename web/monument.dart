@@ -3,6 +3,7 @@ import 'package:polymer/polymer.dart';
 import 'package:paper_elements/paper_dialog.dart';
 import 'package:jsonp/jsonp.dart' as jsonp;
 
+
 @CustomTag('x-monument')
 class XMonument extends PolymerElement {
 
@@ -21,6 +22,7 @@ class XMonument extends PolymerElement {
         this.imageSrc = src;
       }
     });
+
 
     shadowRoot.querySelector("#show").onClick.listen((_) {
       (shadowRoot.querySelector("#dialog") as PaperDialog).toggle();
