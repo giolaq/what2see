@@ -1,0 +1,123 @@
+/* Elements */
+
+body {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+paper-dialog {
+  width: 50%;
+  min-width: 430px;
+  max-width: 65%;
+  text-align: center;
+
+}
+
+paper-dialog paper-button {
+  font-weight: bold;
+}
+
+paper-fab {
+    color: #fff;
+}
+
+/* Classes */
+
+.grey {
+    background: grey;
+}
+
+.frame {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-dialog {
+  max-width: 95%;
+}
+
+/*
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+*/
+
+.cat-name {
+  height: 48px;
+  padding: 0 16px;
+  font-size: 12px;
+}
+
+.category-bg-wrapper core-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.tile {
+  position: relative;
+  margin: 2px;
+}
+
+.category-item {
+  position: relative;
+  float: left;
+  vertical-align: top;
+  width: 25%;
+  height: 224px;
+  /*
+   * TODO(dfreedm): force items to be layers until
+   * overflow scrolling renders correctly
+   */
+  will-change: transform;
+}
+
+.category-item[needZ] {
+  z-index: 10000; /* need this for will-change */
+}
+
+.category-item.completed {
+  pointer-events: none;
+}
+
+/* blue theme */
+.blue-theme /deep/ .theme-bg,
+.blue-theme.theme-bg {
+  background-color: #03A9F4;
+  color: #fff;
+}
+
+.blue-theme /deep/ .theme-bg-a,
+.blue-theme.theme-bg-a {
+  background-color: #84ffff;
+}
+
+.blue-theme /deep/ .theme-color {
+  color: #fff;
+}
+
+.blue-theme /deep/ .theme-icon {
+  color: #03A9F4;
+}
+
+.blue-theme /deep/ .theme-primary-color {
+  color: #03A9F4;
+}
+
+.blue-theme /deep/ .theme-border-color {
+  border-color: #03A9F4;
+}
+
+.blue-theme /deep/ paper-progress::shadow #progressContainer {
+  background-color: transparent;
+}
+
+.blue-theme /deep/ paper-progress::shadow #activeProgress {
+  background-color: #03A9F4;
+}

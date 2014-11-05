@@ -9,41 +9,20 @@
 
 <link href="packages/core_elements/core_icons.html" rel="import">
 
-<!-- TODO: move this to a css file -->
-<style>
-    body {
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
-      font-size: 16px;
-      color: rgba(0, 0, 0, 0.87);
-    }
-
-    paper-dialog {
-      width: 50%;
-      min-width: 430px;
-    }
-
-    paper-dialog paper-button {
-      font-weight: bold;
-    }
-</style>
-
 <polymer-element name="x-monument">
     <template>
         <!-- TODO: move this to a css file -->
-        <link rel="stylesheet" href="monuments_list.css">
-        <paper-dialog style="max-width: 65%; text-align:center" id="dialog" heading="{{name}}" transition="paper-dialog-transition-center">
+        <link rel="stylesheet" href="monument.css">
+        <paper-dialog id="dialog" heading="{{name}}" transition="paper-dialog-transition-center">
             <img class="img-dialog" _src="{{imageSrc}}" alt="{{name}}"/>
-            <p style="text-align:center"><em>{{address}}</em></p>
-            <paper-fab mini dismissive icon="reply" role="button" tabindex="0" aria-label="done" style="background: grey; color: #fff"></paper-fab>
-            <paper-fab mini affirmative id="go" on-click="{{seeOnMaps}}" icon="arrow-forward" role="button" tabindex="0" aria-label="arrow-forward" style="color: #fff"></paper-fab>
+            <p><em>{{address}}</em></p>
+            <paper-fab mini dismissive icon="reply" role="button" tabindex="0" aria-label="done" class="grey"></paper-fab>
+            <paper-fab mini affirmative id="go" on-click="{{seeOnMaps}}" icon="arrow-forward" role="button" tabindex="0" aria-label="arrow-forward"></paper-fab>
         </paper-dialog>
 
         <div class="category-item blue-theme"  vertical layout needZ?="true">
             <div class="tile theme-bg-a" dummy fit hero-id="true" hero?="true"></div>
-            <div class="tile" style="background-image: url({{imageSrc}}); background-position: center center;
-                background-repeat: no-repeat; background-size: cover; border: 1px solid black;" flex auto vertical layout>
+            <div class="tile frame" style="background-image: url({{imageSrc}})" flex auto vertical layout>
                 <div flex auto relative>
                     <!-- sizing wrapper -->
                     <div fit layout vertical center center-justified>
