@@ -1,76 +1,64 @@
-import 'package:polymer/polymer.dart';
 import 'dart:html';
-import 'dart:async';
-import 'monument.dart';
+
+import 'package:polymer/polymer.dart';
 import 'package:csvparser/csvparser.dart';
-import "package:jsonp/jsonp.dart" as jsonp;
+
+class Monument {
+  String name;
+  String address;
+
+  Monument(this.name, this.address);
+}
 
 @CustomTag('monuments-list')
 class MonumentsList extends PolymerElement {
 
+  List<Monument> buffer = [];
+  int currentBufferPosition;
   @observable List<Monument> monuments = toObservable([]);
 
   MonumentsList.created() : super.created() {
-    loadData();
+    // Load CSV
+    String url = "/Elenco_Monumenti_2011.csv";
+    HttpRequest.getString(url).then((String response) {
+      populateMonumentsList(response);
+    });
+
   }
 
+  void populateMonumentsList(String response) {
+    CsvParser cp = new CsvParser(response, seperator: ";", quotemark: "\"", setHeaders: true);
 
-
-  void populateList(String data) {
-    monuments.clear();
-
-
-    CsvParser cp = new CsvParser(data, seperator: ";", quotemark: "\"", setHeaders: true);
-    //set pointer below header
+    // Move three positions
+    // TODO: ugly!
     cp.moveNext();
     cp.moveNext();
     cp.moveNext();
+
     while (cp.moveNext()) {
-
-      //while (cp.current.moveNext())
-      //{
       Map line = cp.getLineAsMap(headers: ['name', 'address']);
+
       if (line['name'].isNotEmpty) {
-
-        getThmbUrl(line['name'] + line['address'] + " Roma").then((onValue) {
-
-          String thmbUrl = onValue['responseData']['results'][0]['url'];
-
-          monuments.add(new Monument(line['name'], line['address'], thmbUrl));
-
-        });
-
-
-
+        buffer.add(new Monument(line['name'], line['address']));
       }
-      //}
     }
 
-
+    for (var i = 0; i < 24; i++) {
+      monuments.add(buffer[i]);
+    }
+    currentBufferPosition = 24;
   }
 
-  Future getThmbUrl(String name) {
-
-    String query = "https://ajax.googleapis.com/ajax/services/search/images";
-
-    String q = Uri.encodeQueryComponent(name);
-
-
-    Future<dynamic> result = jsonp.fetch(uri: '$query?v=1.0&q=$name&callback=?');
-
-    return result;
+  void loadMore() {
+    int nextBufferPosition;
+    for (var i = currentBufferPosition; i < currentBufferPosition + 8; i++) {
+      if (i < buffer.length) {
+        monuments.add(buffer[i]);
+        nextBufferPosition = i;
+      }
+    }
+    currentBufferPosition = nextBufferPosition;
   }
 
-  void loadData() {
-    var url = "http://localhost:8080/Elenco_Monumenti_2011.csv";
-
-    // call the web server asynchronously
-    var request = HttpRequest.getString(url).then(onDataLoaded);
-  }
-
-// print the raw json response text from the server
-  void onDataLoaded(String responseText) {
-    populateList(responseText);
-  }
 
 }

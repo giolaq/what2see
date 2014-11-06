@@ -1170,3 +1170,1686 @@ build.dart --machine --changed=web/monuments_list.dart
 
 build.dart finished [1967 ms]
 
+---
+build.dart --machine --full
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2969 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [3394 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [12069 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [5434 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 0.5s (0.3s awaiting secondary inputs)."}}]
+build.dart finished [2830 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [3903 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [3916 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [3754 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"warning","params":{"file":"web/what2see.html","message":"Invalid character in attribute name","line":30,"charStart":1046,"charEnd":1086}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+build.dart finished [3716 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2944 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [3685 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [3812 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3557 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2753 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 1.3s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3581 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [3373 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"warning","params":{"file":"web/what2see.html","message":"definition for Polymer element with tag name \"monuments-list\" not found.","line":32,"charStart":1085,"charEnd":1101}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2802 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"warning","params":{"file":"web/what2see.html","message":"couldn't find imported asset \"web/monumnets_list.html\" in package \"what2see\".","line":14,"charStart":415,"charEnd":461}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"definition for Polymer element with tag name \"monuments-list\" not found.","line":33,"charStart":1136,"charEnd":1152}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [3556 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [3349 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"warning","params":{"file":"web/what2see.html","message":"Named entity expected. Got none.","line":29,"charStart":1028,"charEnd":1032}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [15784 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [8080 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4616 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 0.7s (0.3s awaiting secondary inputs)."}}]
+build.dart finished [10356 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+[{"method":"info","params":{"message":"Took 2.1s (2.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.4s (2.2s awaiting secondary inputs)."}}]
+build.dart finished [6079 ms]
+
+---
+build.dart --machine --changed=lib/monument.dart --changed=lib/monuments_list.css --changed=lib/monuments_list....
+[{"method":"warning","params":{"file":"web/what2see.html","message":"couldn't find imported asset \"web/monuments_list.html\" in package \"what2see\".","line":14,"charStart":413,"charEnd":459}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: ../packages/polymer/polymer.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/polymer/polymer.html","line":2,"charStart":16,"charEnd":75}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_icons.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_icons.html","line":3,"charStart":76,"charEnd":141}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_menu.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_menu.html","line":4,"charStart":142,"charEnd":206}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_toolbar.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_toolbar.html","line":5,"charStart":207,"charEnd":274}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_fab.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_fab.html","line":7,"charStart":280,"charEnd":345}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_item.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_item.html","line":8,"charStart":346,"charEnd":412}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_shadow.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_shadow.html","line":9,"charStart":413,"charEnd":481}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_icon_button.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_icon_button.html","line":10,"charStart":482,"charEnd":555}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../../packages/polymer/polymer.html\">.","line":12,"charStart":557,"charEnd":596}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":20,"charStart":723,"charEnd":781}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"definition for Polymer element with tag name \"core-icon\" not found.","line":45,"charStart":1961,"charEnd":2067}}]
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"definition for Polymer element with tag name \"monuments-list\" not found.","line":33,"charStart":1160,"charEnd":1176}}]
+[{"method":"info","params":{"message":"Took 0.5s (0.3s awaiting secondary inputs)."}}]
+build.dart finished [4188 ms]
+
+---
+build.dart --machine --changed=lib/monuments_list.html
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/polymer/polymer.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/polymer/polymer.html","line":2,"charStart":16,"charEnd":72}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_icons.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_icons.html","line":3,"charStart":73,"charEnd":138}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_menu.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_menu.html","line":4,"charStart":139,"charEnd":203}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_toolbar.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_toolbar.html","line":5,"charStart":204,"charEnd":271}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_fab.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_fab.html","line":7,"charStart":273,"charEnd":338}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_item.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_item.html","line":8,"charStart":339,"charEnd":405}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_shadow.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_shadow.html","line":9,"charStart":406,"charEnd":474}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_icon_button.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_icon_button.html","line":10,"charStart":475,"charEnd":548}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../../packages/polymer/polymer.html\">.","line":12,"charStart":550,"charEnd":589}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":20,"charStart":706,"charEnd":764}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"definition for Polymer element with tag name \"core-icon\" not found.","line":45,"charStart":1928,"charEnd":2034}}]
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"couldn't find imported asset \"web/monuments_list.html\" in package \"what2see\".","line":14,"charStart":413,"charEnd":459}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"definition for Polymer element with tag name \"monuments-list\" not found.","line":33,"charStart":1160,"charEnd":1176}}]
+[{"method":"info","params":{"message":"Took 2.9s (2.6s awaiting secondary inputs)."}}]
+build.dart finished [8338 ms]
+
+---
+build.dart --machine --changed=lib/monuments_list.html
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/polymer/polymer.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/polymer/polymer.html","line":2,"charStart":16,"charEnd":72}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_icons.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_icons.html","line":3,"charStart":73,"charEnd":138}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_menu.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_menu.html","line":4,"charStart":139,"charEnd":203}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_toolbar.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_toolbar.html","line":5,"charStart":204,"charEnd":271}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_fab.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_fab.html","line":7,"charStart":273,"charEnd":338}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_item.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_item.html","line":8,"charStart":339,"charEnd":405}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_shadow.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_shadow.html","line":9,"charStart":406,"charEnd":474}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_icon_button.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_icon_button.html","line":10,"charStart":475,"charEnd":548}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"../../packages/polymer/polymer.html\">.","line":12,"charStart":550,"charEnd":589}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":20,"charStart":706,"charEnd":764}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"definition for Polymer element with tag name \"core-icon\" not found.","line":45,"charStart":1928,"charEnd":2034}}]
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"couldn't find imported asset \"web/monuments_list.html\" in package \"what2see\".","line":14,"charStart":413,"charEnd":459}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"definition for Polymer element with tag name \"monuments-list\" not found.","line":33,"charStart":1160,"charEnd":1176}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.3s awaiting secondary inputs)."}}]
+build.dart finished [4399 ms]
+
+---
+build.dart --machine --changed=lib/monuments_list.html
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_icons.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_icons.html","line":3,"charStart":79,"charEnd":144}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_menu.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_menu.html","line":4,"charStart":145,"charEnd":209}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/core_elements/core_toolbar.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/core_elements/core_toolbar.html","line":5,"charStart":210,"charEnd":277}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_fab.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_fab.html","line":7,"charStart":279,"charEnd":344}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_item.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_item.html","line":8,"charStart":345,"charEnd":411}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_shadow.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_shadow.html","line":9,"charStart":412,"charEnd":480}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"Invalid URL to reach to another package: packages/paper_elements/paper_icon_button.html. Path reaching to other packages must first reach up all the way to the packages directory. For example, try changing the URL to: ../../packages/paper_elements/paper_icon_button.html","line":10,"charStart":481,"charEnd":554}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"couldn't find imported asset \"web/monuments_list.html\" in package \"what2see\".","line":14,"charStart":413,"charEnd":459}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"definition for Polymer element with tag name \"core-toolbar\" not found.","line":20,"charStart":712,"charEnd":770}}]
+[{"method":"warning","params":{"file":"lib/monuments_list.html","message":"definition for Polymer element with tag name \"core-icon\" not found.","line":45,"charStart":1934,"charEnd":2040}}]
+[{"method":"info","params":{"message":"Took 0.4s (0.1s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"definition for Polymer element with tag name \"monuments-list\" not found.","line":33,"charStart":1160,"charEnd":1176}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.2s awaiting secondary inputs)."}}]
+build.dart finished [2825 ms]
+
+---
+build.dart --machine --changed=web/monument.dart --changed=web/monuments_list.css --changed=web/monuments_list....
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3499 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3529 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+
+build.dart finished [5153 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+build.dart finished [3265 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+
+build.dart finished [4476 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [6065 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3334 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2885 ms]
+
+---
+build.dart --machine --changed=lib/monument.dart --changed=web/monuments_list.dart --removed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3239 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3157 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2958 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4120 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3570 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3069 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2929 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.3s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [3658 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2997 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3052 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [3107 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2662 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2876 ms]
+
+---
+build.dart --machine --changed=lib/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3478 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3395 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2944 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [6325 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2945 ms]
+
+---
+build.dart --machine --removed=lib/monument.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3018 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [3036 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2721 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+build.dart finished [2693 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3048 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2917 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2991 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2772 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3269 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3085 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [3109 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2951 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2951 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2727 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+build.dart finished [3673 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [4428 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2806 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.3s (0.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [4145 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+build.dart finished [3646 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [4077 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2977 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2723 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [2679 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+build.dart finished [2966 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+build.dart finished [3408 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.6s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+build.dart finished [2707 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.3s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3643 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.4s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3914 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.5s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [9329 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+build.dart finished [3886 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.2s (0.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2919 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [4958 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [4718 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+build.dart finished [3559 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3838 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+
+build.dart finished [4702 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+
+build.dart finished [4836 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [6140 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.2s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4738 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"warning","params":{"file":"web/monuments_list.html","message":"couldn't find imported asset \")packages/polymer/polymer.html\" in package \"what2see\".","line":3,"charStart":57,"charEnd":117}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3943 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+build.dart finished [3249 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [5265 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [4593 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3740 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [4334 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3994 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3231 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3320 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3359 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3083 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4249 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3378 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3104 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3320 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [3719 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [5950 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4967 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [5116 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [4193 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.3s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4031 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3064 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+
+build.dart finished [2939 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"warning","params":{"file":"web/monument.html","message":"script tag has \"src\" attribute and also has script text.","line":68,"charStart":3130,"charEnd":3182}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3516 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3250 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3084 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3493 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3556 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3455 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3533 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3127 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3474 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3040 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3550 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3371 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3203 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3209 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4409 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4499 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.3s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4200 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4219 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4173 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3555 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3591 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2905 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"info","params":{"message":"Took 0.7s (0.5s awaiting secondary inputs)."}}]
+build.dart finished [2963 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+[{"method":"info","params":{"message":"Took 2.0s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.4s (2.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.5s (2.1s awaiting secondary inputs)."}}]
+build.dart finished [5342 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3139 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+error running barback: Transform polymer (Linter) on what2see|web/monument.html threw error: Cannot open file, path = '/home/dawson/.pub-cache/hosted/pub.dartlang.org/core_elements-0.2.0/lib/core_icon.html' (OS Error: No such file or directory, errno = 2)
+build.dart finished [2339 ms]
+
+---
+build.dart --machine --removed=pubspec.lock
+unexpected error invoking 'pub':
+{"error":"Package \"myapp\" has no lockfile. Please run \"pub get\" first."}
+build.dart finished [1040 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+unexpected error invoking 'pub':
+{"error":"Package \"myapp\" has no lockfile. Please run \"pub get\" first."}
+build.dart finished [1045 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+unexpected error invoking 'pub':
+{"error":"Package \"myapp\" has no lockfile. Please run \"pub get\" first."}
+build.dart finished [1060 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+unexpected error invoking 'pub':
+{"error":"Package \"myapp\" has no lockfile. Please run \"pub get\" first."}
+build.dart finished [1104 ms]
+
+---
+build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"warning","params":{"file":"web/what2see.html","message":"No need to include \"dart_support.js\" by hand anymore. See http://goo.gl/5HPeuP#polymer_43 for details.","line":11,"charStart":305,"charEnd":359}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [4422 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [3702 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [5743 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [5401 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.html
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3248 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.8s awaiting secondary inputs)."}}]
+build.dart finished [4983 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4997 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.1s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4060 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.3s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [5034 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [4695 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [5055 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [3472 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4396 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.9s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4295 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4021 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [5042 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3803 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3616 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4188 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [2921 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [2992 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4528 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3170 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3098 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [2957 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [4261 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.5s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [3858 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [3678 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3125 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [2841 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3499 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3128 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3045 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [3815 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [3885 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3560 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [5253 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3316 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3296 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [3777 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3406 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.8s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.0s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4232 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4016 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4557 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.4s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4334 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3167 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 2.0s (1.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.1s (1.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.1s (1.7s awaiting secondary inputs)."}}]
+build.dart finished [4501 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.7s awaiting secondary inputs)."}}]
+build.dart finished [3941 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [2992 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4676 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4504 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4604 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4885 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3263 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4888 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3136 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [4310 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4204 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4198 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.4s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4480 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [3742 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.css
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [4458 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [5019 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.3s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [4327 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [4747 ms]
+
+---
+build.dart --machine --changed=web/monument.html
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [4895 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3149 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4524 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 2.5s (2.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.7s (2.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 2.7s (2.2s awaiting secondary inputs)."}}]
+build.dart finished [8591 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.8s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+build.dart finished [3876 ms]
+
+---
+build.dart --machine --changed=web/monument.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3138 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [3668 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [5543 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3960 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3269 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3901 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [2882 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [2889 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.5s awaiting secondary inputs)."}}]
+build.dart finished [3544 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [3740 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.3s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [3969 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [2897 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [3553 ms]
+
+---
+build.dart --machine --changed=web/what2see.html
+[{"method":"info","params":{"message":"Took 1.0s (0.6s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [3554 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [3746 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.5s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.5s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [3917 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [2932 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4170 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4296 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3109 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.3s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [4045 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.6s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4491 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3062 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.4s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.4s awaiting secondary inputs)."}}]
+build.dart finished [4774 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.2s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.2s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.1s awaiting secondary inputs)."}}]
+build.dart finished [5270 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.6s (1.4s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.5s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.7s (1.6s awaiting secondary inputs)."}}]
+build.dart finished [5497 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.2s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.3s (1.2s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.4s (1.2s awaiting secondary inputs)."}}]
+build.dart finished [4678 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (1.0s awaiting secondary inputs)."}}]
+build.dart finished [5289 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 2.8s (2.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (2.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 3.1s (3.0s awaiting secondary inputs)."}}]
+build.dart finished [9921 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3529 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3221 ms]
+
+---
+build.dart --machine --changed=web/what2see.dart
+[{"method":"info","params":{"message":"Took 1.7s (1.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.8s (1.3s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.9s (1.3s awaiting secondary inputs)."}}]
+build.dart finished [4422 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 0.9s (0.7s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+build.dart finished [3307 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 1.0s (0.8s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 1.1s (0.9s awaiting secondary inputs)."}}]
+build.dart finished [3187 ms]
+
+---
+build.dart --machine --changed=web/monuments_list.dart
+[{"method":"info","params":{"message":"Took 9.8s (9.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 10.8s (10.1s awaiting secondary inputs)."}}]
+[{"method":"info","params":{"message":"Took 10.9s (10.2s awaiting secondary inputs)."}}]
+build.dart finished [29759 ms]
+

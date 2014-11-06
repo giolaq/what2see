@@ -4,26 +4,37 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample app</title>
+    <title>what2see</title>
 
     <!-- include the web_components polyfills with support for Dart. -->
     <script src="packages/web_components/platform.js"></script>
-    <script src="packages/web_components/dart_support.js"></script>
 
     <!-- import the monuments-list -->
     <link rel="import" href="monuments_list.html">
-    
-    <link rel="stylesheet" href="what2see.css">
+    <link rel="import" href="packages/paper_elements/roboto.html">
+    <link rel="import" href="packages/core_elements/core_toolbar.html">
+    <link rel="import" href="packages/core_elements/core_icons.html">
+    <link rel="import" href="packages/paper_elements/paper_menu_button.html">
+    <link rel="import" href="packages/paper_elements/paper_item.html">
+    <style>
+      body {
+        font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+        margin: 0;
+        padding: 24px;
+      }
+    </style>
   </head>
-  <body>
-    <h1>What2see</h1>
-        
-    <div>
+  <body unresolved>
+      <core-toolbar style="background: #4285f4;">
+          <paper-menu-button style="color: #fff;" icon="menu">
+              <paper-item id="learn">Learn Polymer.dart!</paper-item>
+              <paper-item id="source-code">Get the Source Code</paper-item>
+          </paper-menu-button>
+          <span style="color: white" flex>what2see &mdash; Monuments in Rome</span>
+      </core-toolbar>
       <monuments-list></monuments-list>
-    </div>
-
-    <!-- bootstrap polymer -->
-    <script type="application/dart">export 'package:polymer/init.dart';</script>
-    <script src="packages/browser/dart.js"></script>
+      <!-- bootstrap polymer -->
+      <script type="application/dart" src="what2see.dart"></script>
+      <script src="packages/browser/dart.js"></script>
   </body>
 </html>

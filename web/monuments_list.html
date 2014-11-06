@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<link rel="import" href="monument.html">
 <link rel="import" href="../packages/polymer/polymer.html">
 <link href="packages/core_elements/core_icons.html" rel="import">
 <link rel="import" href="packages/core_elements/core_menu.html">
 <link rel="import" href="packages/core_elements/core_toolbar.html">
-    
+
 <link rel="import" href="packages/paper_elements/paper_fab.html">
 <link rel="import" href="packages/paper_elements/paper_item.html">
 <link rel="import" href="packages/paper_elements/paper_shadow.html">
@@ -12,46 +13,11 @@
 <polymer-element name="monuments-list">
 
   <template>
-  <link rel="stylesheet" href="monuments_list.css">
-  
-      
-  <div class="categories-panel" flex auto>
-  
-    <core-toolbar class="category-toolbar" slide-down?="true">
-    
-      <div flex >Monuments</div>
-      
-    </core-toolbar>
-    <template repeat="{{monument in monuments}}">
-      
-          <div class="category-item blue-theme"  vertical layout needZ?="true">
-            <div class="tile theme-bg-a" dummy fit hero-id="true" hero?="true"></div>
-            <div class="tile" style="background-image: url({{monument.thmbUrl}}); background-position: center center;
-                    background-repeat: no-repeat; background-size: cover; border: 1px solid black;" flex auto vertical layout>
-              <div flex auto relative>
-                <!-- sizing wrapper -->
-                <div fit layout vertical center center-justified>
-                  <div class="category-bg-wrapper" relative>
-                  </div>
-                </div>
-              </div>
-              <div class="cat-name theme-bg" horizontal center layout hero-id="true" hero?="true">
-                <div flex>
-                  <span cross-fade-delayed?="true">{{monument.name}}</span>
-                </div>
-                 <div flex>
-                  <span cross-fade-delayed?="true">{{monument.address}}</span>
-                </div>
-                <core-icon class="category-icon theme-bg" icon="arrow-forward" hidden?="false" cross-fade-delayed?="true"></core-icon>
-              </div>
-            </div>
-          </div>
-      
+      <template repeat="{{monument in monuments}}">
+        <x-monument name="{{monument.name}}" address="{{monument.address}}"></x-monument>
       </template>
-     
-          </div>
   </template>
-  
+
   <script type="application/dart" src="monuments_list.dart"></script>
 
 </polymer-element>
