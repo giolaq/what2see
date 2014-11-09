@@ -3,11 +3,13 @@ import 'package:polymer/polymer.dart';
 import 'package:paper_elements/paper_item.dart';
 import 'monuments_list.dart';
 main() {
+  // We initialize Polymer
   initPolymer().run(() {
+    // Runs when Polymer is ready
     Polymer.onReady.then((_) {
       /* Bind menu buttons */
 
-      // Learn Polymer!!1
+      // Learn Polymer!
       (querySelector("#learn") as PaperItem).onClick.listen((e) {
         window.location.assign("https://www.dartlang.org/polymer/");
       });
